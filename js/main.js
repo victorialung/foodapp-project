@@ -1,14 +1,5 @@
 $(document).ready(function() {
-  setTimeout(function() {
-    window.location.href = 'views/register.html';
-  }, 8000);
-
   // Establecemos nuestras funciones
-
-  /* $('.pagination li').click(function({
-
-    })); ---> UNA Forma de desarrollar una función */
-
   $('.pagination li').click(pagination); // OTRA forma de desarrollar una función
   $('.iconarrow-right span').click(nextSlider);
   $('.iconarrow-left span').click(prevSlider);
