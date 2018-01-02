@@ -4,3 +4,7 @@
   box-sizing: border-box;
 }
 
+.loader-color{
+  height: 100vh;
+  background: white;
+}
